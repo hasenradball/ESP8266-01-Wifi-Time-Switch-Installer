@@ -1,5 +1,5 @@
 # ESP8266-01-Wifi-Time-Switch-Installer
-Web based installer for the ESP8266/01 wifi time switch.
+Web based installer for the ESP8266/01 wifi time switch.<br>
 Application can be installed under an ESP-01 or each ESP8266.
 
 
@@ -29,7 +29,7 @@ You click on the link in the chapter<br>[Web-Installer](#flash-time-switch-appli
 
 ## Flash Time Switch Application
 
-[Web-Installer]()
+[Web-Installer](https://hasenradball.github.io/ESP8266-01-Wifi-Time-Switch-Installer/)
 
 ### Flash Procedure
 1) Press connect button
@@ -46,8 +46,11 @@ After the flash procedure restart the ESP. Then the ESP will open an access poin
 3) You should see input fields
    
    a) Set a hostname e.g.: `timeswitch`
+
    b) enter `SSID` and `password`
+
    c) click `ok`
+   
    d) chip will reboot.
 4) the Application will be available at<br>`http://timeswitch`
 
@@ -91,7 +94,7 @@ The four letters represent numbers which are explained below:
 | 3      | Bosch BME280 sensor used        |
 
 # License
-This library is licensed under MIT [License]()
+This library is licensed under MIT [License](https://github.com/hasenradball/ESP8266-01-Wifi-Time-Switch-Installer/blob/main/LICENSE)
 
 
 # Helpful Links
