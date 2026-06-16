@@ -1,0 +1,10 @@
+{
+   "version": "0.2",
+   "language": "en,de-de",
+   "allowCompoundWords": true,
+   "words": [
+      "ESP8266",
+      "HellsGate",
+      "Wifi"
+   ]
+}

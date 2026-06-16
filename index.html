@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <title>Garagentor Controller</title>
+
+  <script
+    type="module"
+    src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js">
+  </script>
+</head>
+
+<body>
+  <div class="card">
+    <h1>🚪 ESP Time Switch Application</h1>
+    <p>Firmware-Installation für ESP8266/ESP-01</p>
+    <h2>1. Installation</h2>
+    <p>ESP per USB anschließen folgende Schritte ausführen:</p>
+    <ol>
+      <li>Variante auswählen</li>
+      <li>Connect Button drücken und den seriellen Port auswählen</li>
+      <li>Firmware auswählen und installieren klicken</li>
+      <li>Nach erfolgreicher Installation ESP mit WLAN verbinden</li>
+    </ol>
+
+    <aside class="hinweis-box">
+      <strong>Hinweis:</strong> Bitte vergeben Sie im folgenden Schritt einen Hostnamen z.B. "timeswitch"
+    </aside>
+
+    <h2>2. WLAN Verbindung herstellen</h2>
+    <ol>
+      <li>ESP neu starten</li>
+      <li>Der ESP öffnet Access-Point: "ESP8266-01-Wifi-Config"</li>
+      <li>Mit diesem Access-Point verbinden</li>
+      <li>Web-Seite aufrufen: "http://192.168.4.1"</li>
+      <li>Hostnamen vergeben z.B. "timeswitch"</li>
+      <li>WLAN Zugangsdaten eintragen und mit OK bestätigen</li>
+      <li>Nun bootet der ESP neu und ist unter "http://timeswitch" erreichbar</li>
+    </ol>
+
+     <p>Select your product:</p>
+      <ol class="radios">
+        <li>
+          <label><input type="radio" name="type" value="basic" /> Basic version with 4 timers </label>
+        </li>
+        <li>
+          <label><input type="radio" name="type" value="am2302" /> Enhanced version with 8 timers</label>
+        </li>
+      </ol>
+      <div class="button-container d-none">
+        <esp-web-install-button></esp-web-install-button>
+      </div>
+
+    <!--esp-web-install-button manifest="manifest.json"></esp-web-install-button-->
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
