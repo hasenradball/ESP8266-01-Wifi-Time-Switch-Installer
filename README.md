@@ -2,6 +2,8 @@
 Web based installer for the ESP8266/01 wifi time switch.<br>
 Application can be installed under an ESP-01 or each ESP8266.
 
+This is based on the official [ESP Web Tools](https://esphome.github.io/esp-web-tools/).
+
 
 ![Wifi-Relais](./docs/wifi_relais.png)
 
