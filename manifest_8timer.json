@@ -1,14 +1,14 @@
 {
    "name": "ESP Time Switch 8 Timer",
-   "version": "3.1.0",
+   "version": "3.1.1",
    "new_install_prompt_erase": true,
    "builds": [
     {
-      "version": "3.1.0 - 8 Timer",
+      "version": "3.1.1 - 8 Timer",
       "chipFamily": "ESP8266",
       "parts": [
         {
-          "path": "firmware/wifi_relais_8timer_v3_1_0.bin",
+          "path": "firmware/wifi_relais_8timer_v3_1_1.bin",
           "offset": 0
         }
       ]
